@@ -1,0 +1,39 @@
+@import "./styles/scss/variables";
+@import "~normalize.css";
+@import "./styles/scss/fonts";
+@import "./styles/scss/colors";
+@import "./styles/simpleLineIcons";
+
+body{
+  background-color: $body;
+  *{
+    box-sizing: inherit;
+  }
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: $md) and (max-width: $lg){
+  .container{
+    width: 940px;
+  }
+}
+
+@media (min-width: $sm) and (max-width: $md){
+  .container{
+    width: 710px;
+  }
+}
+
+@media (max-width: $sm){
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+}

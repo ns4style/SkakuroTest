@@ -1,0 +1,16 @@
+@import "~scss/colors";
+
+.errorMessage__wrapper{
+  width: 100%;
+  position: relative;
+}
+
+.errorMessage{
+  font-size: 14px;
+  font-family: MuseoSansCyrl-500;
+  color : $coral-pink;
+  position: absolute;
+  top : 7px;
+  left: 0;
+  width: 100%;
+}

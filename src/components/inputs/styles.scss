@@ -1,0 +1,49 @@
+@import "~scss/variables";
+@import "~scss/colors";
+
+
+.input{
+  width: 300px;
+  &__header{
+    font-size: 16px;
+    font-family: MuseoSansCyrl-700;
+    color : $dark-slate-blue;
+    margin-bottom: 10px;
+    display: block;
+  }
+  &__input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid $purplish-blue;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-family: MuseoSansCyrl-500;
+    font-size: 18px;
+    color : $purplish-blue;
+    outline: none;
+
+    &._error {
+      border-color: $coral-pink;
+    }
+
+    &._success {
+      border-color: #006400;
+    }
+
+    &:focus{
+      border-color: $purplish-blue;
+    }
+  }
+}
+
+@media (max-width: $sm){
+  .input{
+    width: 100%;
+
+    &__input{
+      font-size: 14px;
+    }
+  }
+}
+

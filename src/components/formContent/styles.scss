@@ -1,0 +1,38 @@
+@import "~scss/variables";
+@import "~scss/colors";
+
+.form{
+  padding : 30px 30px 50px;
+  margin-bottom: 80px;
+  background-color: $white;
+  border: 1px solid $purplish-blue;
+  border-radius: 10px;
+
+  &__block{
+    margin-bottom: 30px;
+  }
+
+  &__button-wrapper{
+    display: flex;
+    align-items: center;
+  }
+
+  &__button{
+    background-color: $purplish-blue;
+    color : $slime-green;
+    font-size: 16px;
+    padding : 14px 16px;
+    border-radius: 10px;
+    font-family: "MuseoSansCyrl-700";
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    appereance : none;
+  }
+
+  &__button:disabled{
+    background-color: $cloudy-blue;
+    color: $white;
+  }
+}

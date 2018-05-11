@@ -1,0 +1,166 @@
+<testsuites name="jest tests" tests="64" failures="0" time="37.779">
+  <testsuite name="\src\components\inputs\tests\summInput.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="2.011" tests="5">
+    <testcase classname="SummInput-render successfully without props" name="SummInput-render successfully without props" time="0.042">
+    </testcase>
+    <testcase classname="SummInput-behavior between label and input is correct" name="SummInput-behavior between label and input is correct" time="0">
+    </testcase>
+    <testcase classname="SummInput-behavior with success prop is correct" name="SummInput-behavior with success prop is correct" time="0">
+    </testcase>
+    <testcase classname="SummInput-behavior with error prop is correct" name="SummInput-behavior with error prop is correct" time="0.016">
+    </testcase>
+    <testcase classname="SummInput-behavior callbacks is correct" name="SummInput-behavior callbacks is correct" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\inputs\tests\phoneInput.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:26" time="0.359" tests="5">
+    <testcase classname="PhoneInput-render successfully without props" name="PhoneInput-render successfully without props" time="0.016">
+    </testcase>
+    <testcase classname="PhoneInput-behavior between label and input is correct" name="PhoneInput-behavior between label and input is correct" time="0">
+    </testcase>
+    <testcase classname="PhoneInput-behavior with success prop is correct" name="PhoneInput-behavior with success prop is correct" time="0">
+    </testcase>
+    <testcase classname="PhoneInput-behavior with error prop is correct" name="PhoneInput-behavior with error prop is correct" time="0">
+    </testcase>
+    <testcase classname="PhoneInput-behavior callbacks is correct" name="PhoneInput-behavior callbacks is correct" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\SummInputContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="2.792" tests="6">
+    <testcase classname="SummInputContainer-render successfully" name="SummInputContainer-render successfully" time="0.031">
+    </testcase>
+    <testcase classname="SummInputContainer-summValidate is working" name="SummInputContainer-summValidate is working" time="0.031">
+    </testcase>
+    <testcase classname="SummInputContainer-summValidate is working correct" name="SummInputContainer-summValidate is working correct" time="0">
+    </testcase>
+    <testcase classname="SummInputContainer-onChangeCallback is working correct" name="SummInputContainer-onChangeCallback is working correct" time="0.016">
+    </testcase>
+    <testcase classname="SummInputContainer-setTouchedInput is working correct" name="SummInputContainer-setTouchedInput is working correct" time="0">
+    </testcase>
+    <testcase classname="SummInputContainer-beforeChange is working correct" name="SummInputContainer-beforeChange is working correct" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\PhoneInputContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="3.455" tests="5">
+    <testcase classname="PhoneInputContainer-render successfully" name="PhoneInputContainer-render successfully" time="0.031">
+    </testcase>
+    <testcase classname="PhoneInputContainer-phoneValidate is working" name="PhoneInputContainer-phoneValidate is working" time="0.032">
+    </testcase>
+    <testcase classname="PhoneInputContainer-phoneValidate is working correct" name="PhoneInputContainer-phoneValidate is working correct" time="0">
+    </testcase>
+    <testcase classname="PhoneInputContainer-onChangeCallback is working correct" name="PhoneInputContainer-onChangeCallback is working correct" time="0.015">
+    </testcase>
+    <testcase classname="PhoneInputContainer-setTouchedInput is working correct" name="PhoneInputContainer-setTouchedInput is working correct" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\MainPageContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="3.927" tests="5">
+    <testcase classname="MainPageContainer-render successfully" name="MainPageContainer-render successfully" time="0.016">
+    </testcase>
+    <testcase classname="MainPageContainer-set loader while data is loading" name="MainPageContainer-set loader while data is loading" time="0">
+    </testcase>
+    <testcase classname="MainPageContainer-successfully load data" name="MainPageContainer-successfully load data" time="0">
+    </testcase>
+    <testcase classname="MainPageContainer-set data to state and off loader when data is loaded" name="MainPageContainer-set data to state and off loader when data is loaded" time="0">
+    </testcase>
+    <testcase classname="MainPageContainer-list operators is rendered" name="MainPageContainer-list operators is rendered" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\operatorItem\operatorItem.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:27" time="1.44" tests="2">
+    <testcase classname="OperatorItem-render successfully without props" name="OperatorItem-render successfully without props" time="0.015">
+    </testcase>
+    <testcase classname="OperatorItem-render successfully with props data" name="OperatorItem-render successfully with props data" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\formContent\formContent.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="4.365" tests="6">
+    <testcase classname="FormContent-it&apos;s render successfully" name="FormContent-it&apos;s render successfully" time="0.016">
+    </testcase>
+    <testcase classname="FormContent-form contains phone container" name="FormContent-form contains phone container" time="0">
+    </testcase>
+    <testcase classname="FormContent-form contains summ container" name="FormContent-form contains summ container" time="0">
+    </testcase>
+    <testcase classname="FormContent-when submitting - correct behavior(button is disabled and loading rings is showing)" name="FormContent-when submitting - correct behavior(button is disabled and loading rings is showing)" time="0">
+    </testcase>
+    <testcase classname="FormContent-correct show error when submitting failed" name="FormContent-correct show error when submitting failed" time="0">
+    </testcase>
+    <testcase classname="FormContent-callback onSubmit is calling when submit" name="FormContent-callback onSubmit is calling when submit" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\FormContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="4.809" tests="8">
+    <testcase classname="FormContainer-render successfully" name="FormContainer-render successfully" time="0.015">
+    </testcase>
+    <testcase classname="FormContainer-onSubmit not call when data is empty" name="FormContainer-onSubmit not call when data is empty" time="0.063">
+    </testcase>
+    <testcase classname="FormContainer-onSubmit not call when phone is incorrect" name="FormContainer-onSubmit not call when phone is incorrect" time="0.047">
+    </testcase>
+    <testcase classname="FormContainer-onSubmit not call when summ is incorrect" name="FormContainer-onSubmit not call when summ is incorrect" time="0.031">
+    </testcase>
+    <testcase classname="FormContainer-callback onSubmit is correct" name="FormContainer-callback onSubmit is correct" time="0.031">
+    </testcase>
+    <testcase classname="FormContainer-errorState is reset every onSubmit" name="FormContainer-errorState is reset every onSubmit" time="0.047">
+    </testcase>
+    <testcase classname="FormContainer-if onSubmit randomize success then going to main page" name="FormContainer-if onSubmit randomize success then going to main page" time="0.031">
+    </testcase>
+    <testcase classname="FormContainer-callback onSubmit throw error when rejected" name="FormContainer-callback onSubmit throw error when rejected" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\OperatorItemContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:27" time="1.862" tests="2">
+    <testcase classname="OperatorItemContainer-render successfully without props" name="OperatorItemContainer-render successfully without props" time="0">
+    </testcase>
+    <testcase classname="OperatorItemContainer-props calculate and pass correct" name="OperatorItemContainer-props calculate and pass correct" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\errorMessage\errorMessage.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:28" time="0.988" tests="2">
+    <testcase classname="ErrorMessage-it&apos;s render successfully without children" name="ErrorMessage-it&apos;s render successfully without children" time="0.032">
+    </testcase>
+    <testcase classname="ErrorMessage-render correct with children" name="ErrorMessage-render correct with children" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\list\list.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:28" time="1.097" tests="2">
+    <testcase classname="List-it&apos;s render successfully without children" name="List-it&apos;s render successfully without children" time="0">
+    </testcase>
+    <testcase classname="List-render correct with children" name="List-render correct with children" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\headerPage\headerPage.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:29" time="0.801" tests="2">
+    <testcase classname="HeaderPage-it&apos;s render successfully without children" name="HeaderPage-it&apos;s render successfully without children" time="0">
+    </testcase>
+    <testcase classname="HeaderPage-render correct with children" name="HeaderPage-render correct with children" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\LoadingContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:28" time="1.694" tests="2">
+    <testcase classname="LoadingContainer-dont show Loading when observable field is false" name="LoadingContainer-dont show Loading when observable field is false" time="0">
+    </testcase>
+    <testcase classname="LoadingContainer-show Loading when observable field is true" name="LoadingContainer-show Loading when observable field is true" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\backButton\backButton.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:29" time="0.691" tests="2">
+    <testcase classname="BackButton-it&apos;s render successfully" name="BackButton-it&apos;s render successfully" time="0.016">
+    </testcase>
+    <testcase classname="BackButton-link to a main page" name="BackButton-link to a main page" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\fadeComponent\fadeComponent.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:29" time="0.848" tests="2">
+    <testcase classname="FadeComponent-it&apos;s render successfully without children" name="FadeComponent-it&apos;s render successfully without children" time="0">
+    </testcase>
+    <testcase classname="FadeComponent-render correct with children" name="FadeComponent-render correct with children" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\containers\tests\DetailsPageContainer.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:24" time="5.736" tests="4">
+    <testcase classname="DetailsPageContainer-render successfully" name="DetailsPageContainer-render successfully" time="0.016">
+    </testcase>
+    <testcase classname="DetailsPageContainer-enable loading when componentWillMount" name="DetailsPageContainer-enable loading when componentWillMount" time="0">
+    </testcase>
+    <testcase classname="DetailsPageContainer-redirect when operator don&apos;t exist" name="DetailsPageContainer-redirect when operator don&apos;t exist" time="0">
+    </testcase>
+    <testcase classname="DetailsPageContainer-data is loading and set to state and loader is off" name="DetailsPageContainer-data is loading and set to state and loader is off" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\loading\rings\rings.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:30" time="0.314" tests="2">
+    <testcase classname="Rings-render successfully" name="Rings-render successfully" time="0.016">
+    </testcase>
+    <testcase classname="Rings-props small is working" name="Rings-props small is working" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="\src\components\loading\loading.test.js" errors="0" failures="0" skipped="0" timestamp="2018-05-11T02:39:29" time="0.59" tests="2">
+    <testcase classname="Loading-it&apos;s dont show by default" name="Loading-it&apos;s dont show by default" time="0.006">
+    </testcase>
+    <testcase classname="Loading-props show is working" name="Loading-props show is working" time="0.011">
+    </testcase>
+  </testsuite>
+</testsuites>

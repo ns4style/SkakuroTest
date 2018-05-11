@@ -1,0 +1,45 @@
+@import "~scss/variables";
+@import "~scss/colors";
+
+.operatorItem {
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid $purplish-blue;
+  border-radius: 8px;
+  background-color: $white;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+
+  &__logo {
+    height: 60px;
+  }
+
+  &__name {
+    font-family: "MuseoSansCyrl-700";
+    font-size: 16px;
+    line-height: 1.14;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    color: $purplish-blue;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $sm){
+  .operatorItem{
+    justify-content: center;
+
+    &__name{
+      width: 100%;
+    }
+  }
+}

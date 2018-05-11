@@ -1,0 +1,45 @@
+@import "~scss/variables";
+@import "~scss/colors";
+
+.backButton{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+  top : 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid $dark-slate-blue;
+  text-decoration: none;
+
+  & span {
+    font-size: 24px;
+    color : $dark-slate-blue;
+  }
+}
+
+@media (min-width: $sm) and (max-width: $md){
+  .backButton{
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 40px;
+  }
+}
+
+@media (max-width: $sm){
+  .backButton{
+    width: auto;
+    height: auto;
+    border: none;
+    top: 30px;
+    left: 20px;
+
+    & span {
+      font-size: 18px;
+      color : $dark-slate-blue;
+    }
+  }
+}

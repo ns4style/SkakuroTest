@@ -1,0 +1,25 @@
+@import "~scss/variables";
+@import "~scss/colors";
+
+.headerPage {
+  text-align: center;
+  font-size: 48px;
+  font-family: "MuseoSansCyrl-700";
+  margin : 50px 0 80px;
+  color : $dark-slate-blue;
+}
+
+@media (min-width: $sm) and (max-width: $md ){
+  .headerPage{
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: $sm){
+  .headerPage{
+    font-size: 24px;
+    margin: 25px 0 40px;
+  }
+}
+
