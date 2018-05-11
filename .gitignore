@@ -1,7 +1,7 @@
 cache/
 .idea/
 node_modules/
-dist/
+/dist/
 static/dist
 *.log
 *.map
