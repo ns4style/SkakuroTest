@@ -1,3 +1,4 @@
+# Тестовое задание Shakuro
 ## 1.Рефакторинг
 ### До:
 
@@ -66,7 +67,7 @@ function func(s, a, b) {
 ### 2.1 ```npm install``` \ ```yarn install```
 ### 2.2  ```npm run dev```
 ssr для приложения - отсутствует.
-### 2.4 Тесты - jest/enzyme. ```npm test```
+### 2.3 Тесты - jest/enzyme. ```npm test```
 ### 2.4 Использованые либы:
 	1) react
 	2) mobx - только прелоадер для страниц
